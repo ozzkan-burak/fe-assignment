@@ -1,9 +1,9 @@
 
 const SearchBar = () => {
   return (
-    <div>
-      SearchBar
-    </div>
+    <>
+      <input className="search" type="text" placeholder="Search" />
+    </>
   );
 };
 

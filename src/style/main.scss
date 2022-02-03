@@ -1,0 +1,22 @@
+
+// global
+@import './global';
+
+// components
+@import './components/breadCrumb';
+@import './components/card';
+@import './components/details';
+@import './components/discount';
+@import './components/footer';
+@import "./components/header";
+@import './components/iconButton';
+@import './components/navigation';
+@import './components/searchBar';
+
+//pages
+@import './pages/burgers';
+@import './pages/chickenProducts';
+@import './pages/crispyFlavors';
+@import './pages/delights';
+@import './pages/menus';
+@import './pages/popular';

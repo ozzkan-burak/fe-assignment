@@ -1,11 +1,11 @@
 import React from 'react';
+// components
+import Header from './components/header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <Header />
     </div>
   );
 }
