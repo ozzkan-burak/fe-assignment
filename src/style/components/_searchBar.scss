@@ -4,7 +4,7 @@
   border-radius:$border-radius;
   height: 44px;
   border: 1px solid $border-color;
-  text-indent: 2rem;
+  text-indent: 1rem;
   font-size: 1.7rem;
   font-family: 'HelveticaNeue', sans-serif;
   padding: 0 1rem;
@@ -13,4 +13,16 @@
 .search-container{
   width: 100%;
   @include Display(flex, center, center);
+}
+.search-wrapper{
+  position: relative;
+  width: 100%;
+  @include Display(flex, flex-end);
+  padding-right: 2rem;
+}
+.search-icon{
+  position: absolute;
+  z-index: 10;
+  right: 37px;
+  top:13px;
 }
