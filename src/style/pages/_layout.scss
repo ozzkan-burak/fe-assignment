@@ -1,0 +1,7 @@
+.layout {
+  max-width: 114rem;
+}
+
+.content-wrapper {
+  @include Display(flex, space-between);
+}

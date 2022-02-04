@@ -1,10 +1,10 @@
 
-const ChickenProducts = () => {
+const Burgers = () => {
   return (
     <div>
-      ChickenProducts
+      Burgers
     </div>
   );
 };
 
-export default ChickenProducts;
+export default Burgers;
