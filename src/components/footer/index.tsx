@@ -1,6 +1,16 @@
+//container
+import FooterBottom from "./footerBottom";
+import FooterMiddle from "./footerMiddle";
+import FooterTop from "./footerTop";
+
+
 const Footer = () => {
   return (
-      <div>Footer</div>
+      <div className="container">
+        <FooterTop />
+        <FooterMiddle />
+        <FooterBottom />
+      </div>
     );
 };
 

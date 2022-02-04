@@ -8,6 +8,10 @@
   font-size: 1.7rem;
   font-family: 'HelveticaNeue', sans-serif;
   padding: 0 1rem;
+  &:focus {
+    outline: none;
+    border: 1px solid $red;
+  }
 }
 
 .search-container{
