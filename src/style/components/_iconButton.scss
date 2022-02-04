@@ -1,0 +1,22 @@
+.icon-button{
+  &-wrapper{
+    @include Display(flex, center, center);
+    padding-left:10px
+  }
+  &-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    @include Display(flex, center, center);
+    box-shadow: $box-shadow;
+    -webkit-box-shadow: $box-shadow;
+    > img {
+      width: 22px;
+      height: auto;
+    }
+    }
+    &-content {
+      margin-left: 10px;
+      font-weight: bold;
+    }
+}
