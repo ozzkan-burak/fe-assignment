@@ -1,0 +1,50 @@
+.header{
+ height: 100px;
+ @include Display(flex, center, center);
+ background-color: white;;
+ &__container{
+   width: 100%;
+   height: 100%;
+   max-width: 114rem;
+  @include Display(flex, null, center);
+  
+  }
+  &__logo {
+    
+  }
+  &__cart-container {
+   @include Display(flex, space-around, center);
+   height: 100%;
+   padding: 0 !important;
+  }
+  &__promotion-wrapper {
+    width: 12rem
+  }
+  &__account-wrapper {
+    width: 12rem;
+  }
+  &__cart-wrapper {
+    width: 13rem;
+    //margin-left: 2rem;
+    border-radius: 20rem;
+    background-color: $red;
+    @include Display(flex, space-between, center);
+    height: 50px
+  }
+  &__cart-icon{
+    @include Display(flex, center, center);
+    width: 50px;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    background-color: $dark-red;
+    height: 100%;
+  }
+  &__cart-price {
+    @include Display(flex, center, center);
+    width: 70%;
+    color: white;
+  }
+  &__notification-wrapper {
+    @include Display (flex, center, center);
+  }
+}
