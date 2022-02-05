@@ -1,5 +1,9 @@
 .layout {
   max-width: 114rem;
+  width: 100%;
+  @include Display(flex, space-between);
+  flex-wrap: wrap;
+  padding-left: 3rem 
 }
 
 .content-wrapper {

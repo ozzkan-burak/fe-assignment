@@ -1,0 +1,13 @@
+.detail-wrapper{
+  font-size: 1.1rem;;
+  margin-bottom: 1rem;
+  @include Display(flex, null, center);
+  padding: .6rem 1rem;
+  border-radius: $border-radius;
+  border: 1px solid $footer-seperator-color;
+}
+.detail-icon{
+  > img {
+    margin-right: .5rem;
+  }
+}

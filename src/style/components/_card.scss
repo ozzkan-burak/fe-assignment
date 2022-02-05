@@ -1,5 +1,89 @@
-.card-container {
-  width: 100%;
-  background-color: white;
-  border-radius: $border-radius;
+.card {
+  width:48%;
+  height: 365px;
+  margin-bottom: 2rem;;
+  &-container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: $border-radius;
+    padding: 1.5rem;
+  }
+  &-header {
+    font-weight: bold;
+    font-size: 1.9rem;
+    text-align: center;
+    padding-bottom: 1.5rem ;
+  }
+  &-body{
+    //margin: 0 2rem;
+    margin-bottom: 1rem;
+    @include Display(flex, center, center);
+    border-radius: $border-radius;
+    border:1px solid $footer-border-color;
+    height: 14rem;
+    > img {
+      width: 15%;
+    }
+  }
+  &-details{
+    @include Display(flex, space-around,center);
+    padding: 1rem 0;
+    flex-wrap: wrap;
+    border-bottom: 1px solid $footer-border-color;
+    min-height: 10rem;
+  }
+  &-footer {
+    @include Display(flex, space-between, center);
+    padding-top: 1rem;
+    &__price-wrapper{
+      @include Display(flex, center, center);
+      flex-direction: column;
+      font-weight: bold;
+      font-size: 1.9rem;
+    }
+  }
+  &-price {
+    @include Display(flex, center, flex-end);
+  }
+}
+.price-wrapper-first{
+  font-size: 1.3rem;
+  font-weight: normal;
+  color:$th-color;
+  text-decoration: line-through;
+  margin-bottom: .6rem;
+}
+.price-wrapper-price{
+  font-size: 1.9rem;
+  font-weight: bold;
+  color:$red;
+}
+.discount{
+  background-color: $red;
+  color: white;
+  font-size: 1.3rem;
+  padding: .5rem .7rem;
+  margin-left: .7rem;
+  border-radius: .5rem;
+}
+
+.card-button{
+  width:5rem;
+  height: 100%;
+  @include Display(flex, center, center);
+  &__button {
+    @include Display(flex, center, center);
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    &:hover{
+      cursor: pointer;
+    
+  }
+    > img {
+      width:40px
+    }
+  }
 }
