@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+
 
 // components
 import Header from './components/header';
@@ -10,7 +11,11 @@ import Layout from './pages/layout';
 import Footer from './components/footer';
 
 
+
 function App() {
+
+ 
+
   return (
     <div className="App">
       <Header />
