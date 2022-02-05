@@ -25,7 +25,7 @@
           "price": 40.96,
           "discountLabel": "%10 İndirim",
           "firstPrice": 44.05,
-          "details:": [
+          "details": [
             "x3 Lorem",
             "10'lu lorem",
             "x4 Lipsum",
@@ -60,7 +60,7 @@
           "price": 42.96,
           "discountLabel": "%10 İndirim",
           "firstPrice": 47.96,
-          "details:": [
+          "details": [
             "x3 Lorem",
             "10'lu lorem",
             "x4 Lipsum",
@@ -74,7 +74,7 @@
           "price": 39.96,
           "discountLabel": "%12 İndirim",
           "firstPrice": 44.05,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -87,7 +87,7 @@
           "price": 79.9,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -100,7 +100,7 @@
           "price": 44.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -113,7 +113,7 @@
           "price": 99.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -126,7 +126,7 @@
           "price": 33.99,
           "discountLabel": "%10 indirim",
           "firstPrice": 31.21,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -142,7 +142,7 @@
           "price": 37.99,
           "discountLabel": "%20 İndirim",
           "firstPrice": 30.05,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -155,7 +155,7 @@
           "price": 54.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -170,7 +170,7 @@
           "price": 52.49,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -192,7 +192,7 @@
           "price": 28.5,
           "discountLabel": "%20 İndirim",
           "firstPrice": 35,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -209,7 +209,7 @@
           "price": 37.5,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": ["10'lu lorem", "x4 Lipsum", "15'lu Lorem Ipsum"]
+          "details": ["10'lu lorem", "x4 Lipsum", "15'lu Lorem Ipsum"]
         },
         {
           "id": "636b037b-1ebf-420f-9dec-c532ec01c4e3",
@@ -217,7 +217,7 @@
           "price": 48.5,
           "discountLabel": "%4 İndirim",
           "firstPrice": 55,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -234,7 +234,7 @@
           "price": 44.99,
           "discountLabel": "%30 İndirim",
           "firstPrice": 66,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -251,7 +251,7 @@
           "price": 28.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": ["10'lu lorem"]
+          "details": ["10'lu lorem"]
         },
         {
           "id": "20b0144e-2acb-4aef-86f8-769612f1c21b",
@@ -259,7 +259,7 @@
           "price": 34,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": ["x4 Lipsum", "15'lu Lorem Ipsum", "x2 Lorem"]
+          "details": ["x4 Lipsum", "15'lu Lorem Ipsum", "x2 Lorem"]
         },
         {
           "id": "604e9c8e-8533-4558-9869-33435270d770",
@@ -267,7 +267,7 @@
           "price": 49.99,
           "discountLabel": "%3 indirim",
           "firstPrice": 51,
-          "details:": [
+          "details": [
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
             "x2 Lorem",
@@ -282,7 +282,7 @@
           "price": 51.99,
           "discountLabel": "%5 indirim",
           "firstPrice": 55,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -295,7 +295,7 @@
           "price": 34.49,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -315,7 +315,7 @@
           "price": 28.5,
           "discountLabel": "%5 indirim",
           "firstPrice": 30,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -328,7 +328,7 @@
           "price": 37.5,
           "discountLabel": "%5 indirim",
           "firstPrice": 40,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -341,7 +341,7 @@
           "price": 48.5,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "x4 Lipsum",
@@ -355,7 +355,7 @@
           "price": 44.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "x2 Lorem",
             "10'lu lorem",
             "x4 Lipsum",
@@ -369,7 +369,7 @@
           "price": 28.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "x2 Lorem",
             "10'lu lorem",
             "x4 Lipsum",
@@ -383,7 +383,7 @@
           "price": 34,
           "discountLabel": "%12 indirim",
           "firstPrice": 45,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -400,7 +400,7 @@
           "price": 49.99,
           "discountLabel": "%10 indirim",
           "firstPrice": 55,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -414,7 +414,7 @@
           "price": 51.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -431,7 +431,7 @@
           "price": 34.49,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -453,7 +453,7 @@
           "price": 28.5,
           "discountLabel": "%5 indirim",
           "firstPrice": 35,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "x4 Lipsum",
@@ -467,7 +467,7 @@
           "price": 37.5,
           "discountLabel": "%10 indirim",
           "firstPrice": 42,
-          "details:": ["x4 Lipsum", "15'lu Lorem Ipsum", "x2 Lorem"]
+          "details": ["x4 Lipsum", "15'lu Lorem Ipsum", "x2 Lorem"]
         },
         {
           "id": "78994413-aefa-49e3-9cf2-c59d4135691",
@@ -475,7 +475,7 @@
           "price": 48.5,
           "discountLabel": "%3 indirim",
           "firstPrice": 50,
-          "details:": [
+          "details": [
             "x2 Lorem",
             "10'lu lorem",
             "x4 Lipsum",
@@ -489,7 +489,7 @@
           "price": 44.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -502,7 +502,7 @@
           "price": 28.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": null
+          "details": null
         },
         {
           "id": "2c4350a9-b68b-48b7-ba34-05c5363812c6",
@@ -510,7 +510,7 @@
           "price": 34,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": null
+          "details": null
         },
         {
           "id": "23485499-d33d-475d-8dab-c7e87f9e3267",
@@ -518,7 +518,7 @@
           "price": 49.99,
           "discountLabel": "%3 indirim",
           "firstPrice": 55,
-          "details:": null
+          "details": null
         },
         {
           "id": "2944c7f2-a700-46d1-a62f-b8ed1786335d",
@@ -526,7 +526,7 @@
           "price": 51.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": null
+          "details": null
         },
         {
           "id": "f3cc6ff8-dea1-473a-bb00-3fb8b7e55ae1",
@@ -534,7 +534,7 @@
           "price": 34.49,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": null
+          "details": null
         }
       ]
     },
@@ -547,7 +547,7 @@
           "price": 28.5,
           "discountLabel": "%3 indirim",
           "firstPrice": 30,
-          "details:": ["15'lu Lorem Ipsum", "x2 Lorem"]
+          "details": ["15'lu Lorem Ipsum", "x2 Lorem"]
         },
         {
           "id": "445ea752-0b00-45fa-8d5e-daba88ff7730",
@@ -555,7 +555,7 @@
           "price": 37.5,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": ["x2 Lorem"]
+          "details": ["x2 Lorem"]
         },
         {
           "id": "39ecdb19-4901-4e94-9a77-87c930589196",
@@ -563,7 +563,7 @@
           "price": 48.5,
           "discountLabel": "%5 indiirm",
           "firstPrice": 55,
-          "details:": null
+          "details": null
         },
         {
           "id": "737f3057-db9b-441e-8430-33ebf5899055",
@@ -571,7 +571,7 @@
           "price": 44.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": null
+          "details": null
         },
         {
           "id": "2ff81f12-3235-4809-90ea-5c9efa46bba3",
@@ -579,7 +579,7 @@
           "price": 28.99,
           "discountLabel": "%12 indirim",
           "firstPrice": 45,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -596,7 +596,7 @@
           "price": 34,
           "discountLabel": "%11 indirim",
           "firstPrice": 45,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -613,7 +613,7 @@
           "price": 49.99,
           "discountLabel": "%2 indirim",
           "firstPrice": 55,
-          "details:": ["10'lu lorem", "x4 Lipsum", "x2 Lorem"]
+          "details": ["10'lu lorem", "x4 Lipsum", "x2 Lorem"]
         },
         {
           "id": "ac15b661-c601-4011-9b05-c8791dd81138",
@@ -621,7 +621,7 @@
           "price": 51.99,
           "discountLabel": null,
           "firstPrice": null,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",
@@ -634,7 +634,7 @@
           "price": 34.49,
           "discountLabel": "%12 indirim",
           "firstPrice": 45,
-          "details:": [
+          "details": [
             "10'lu lorem",
             "x4 Lipsum",
             "15'lu Lorem Ipsum",

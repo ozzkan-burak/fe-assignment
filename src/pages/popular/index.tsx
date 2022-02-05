@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 // interfaces
 import {IData} from "@/interfaces/data";
-// utils
-import { filterData } from "../../utils/filterData";
 // components
 import Card from "../../components/card";
 import { ICard } from "@/interfaces/card";
@@ -27,7 +25,7 @@ const Popular = () => {
 
 
   useEffect(()=>{
-    setPopularData(data);
+    setPopularData(data)
   },[data]);
 
 

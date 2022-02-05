@@ -10,10 +10,8 @@ import { IDetail } from '../../interfaces/detail';
 
 const Card = (data: any) => {
 
-  const { id, label, price, discountLabel, firstPrice, details } = data.item;
+  const { label, price, discountLabel, firstPrice, details } = data.item;
 
-  console.log({ discountLabel });
-  console.log({ firstPrice });
 
   return (
     <div className="card">
