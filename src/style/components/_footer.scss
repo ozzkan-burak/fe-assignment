@@ -1,0 +1,129 @@
+footer {
+  background-color: white;
+}
+.footer-top-container{
+  margin: 0 auto;
+  @include Display(flex, space-between, center);
+  width: 100%;
+  border-bottom: 2px solid $footer-border-color;
+  height: 10rem;
+  &__store-wrapper {
+    > img {
+      margin-right: 1.5rem;
+    }
+  }
+  &__social-wrapper{
+    > img {
+      margin-left: 1.7rem;
+    }
+  }
+}
+
+// middle footer
+
+.footer-middle{
+  &-container {
+    @include Display(flex, space-between, center);
+  }
+  &__email-wrapper{
+    @include Display(flex, center, flex-start);
+    flex-direction: column;
+    width: 26rem;
+    height: 18rem;
+    border-right: 2px solid $footer-border-color;
+  }
+  &__email{
+    &__image-wrapper{
+      width: 75%;
+      padding-bottom: 1.2rem;
+      border-bottom: 2px solid $footer-seperator-color;
+      > img {
+        width: 70px;
+      }
+    }
+    &__email-wrapper{
+      padding-top:1.7rem;
+      color:$footer-font-color;
+    }
+  }
+  &__content-wrapper{
+    padding: 3rem 0;
+    width: 100%;
+    @include Display(flex, space-around);
+    p{
+      color:$footer-font-color;
+      font-weight: bold;
+      padding-left: 1rem 0;
+      line-height: 2rem;
+      width: 100%;
+    }
+    &__item {
+      width: 22rem;
+      &:last-child{
+        max-width: 22rem
+      }
+      .item-header {
+        display: block;
+        width: 100%;
+        padding: 0.5rem 0;
+        padding-bottom: 1.5rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+        &-line-wrapper{
+          @include Display(flex, null, center);
+          height: 3px;
+          width: 85%;
+        }
+        &-line-red{
+          width:50%;
+          height: 100%;
+          background-color: $red;
+        }
+        &-line-grey{
+          height: 2px;
+          width:50%;
+          background-color: $bg-color;
+        }
+      }
+    }
+    ul{
+      width:100%;
+    }
+    li {
+      width: 100%;
+      padding: 1rem 0;
+      > img {
+        padding-left: 1rem;
+      }
+
+    }
+  }
+}
+
+// botom footer
+
+.footer-bottom-container {
+  @include Display(flex, center, center);
+  padding: 3rem 0;
+  border-top: 2px solid $footer-border-color;
+  &__img-wrapper{
+    max-width: 8rem;
+    > img {
+      width: 70px
+    }
+  }
+}
+.seperator {
+  width: 2px;
+  height: 3rem;
+  background-color: $bg-color;
+  margin: 0  3rem;
+}
+
+.copyright-container {
+  border-top: 2px solid $footer-border-color;
+  @include Display(flex, center, center);
+  padding: 3rem 0;
+  font-size: 1.8rem;;
+  color: $color;
+}
