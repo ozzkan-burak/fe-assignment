@@ -2,7 +2,7 @@
 import { FunctionComponent } from 'react';
 
 //interface
-import { IIconButtons } from '@/src/interfaces/icon-buton/iconButton';
+import { IIconButtons } from '@/interfaces/icon-buton/iconButton';
 
 //icons
 import notification from '../../assets/img/notification/Notification.png';
