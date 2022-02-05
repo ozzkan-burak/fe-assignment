@@ -6,11 +6,14 @@ import FooterTop from "./footerTop";
 
 const Footer = () => {
   return (
-      <div className="container">
+      <footer className='container-fluid'>
         <FooterTop />
         <FooterMiddle />
         <FooterBottom />
-      </div>
+        <div className='copyright-container container'>
+          Lorem ipsum doloer sit amet, consectetur adipiscing elit.
+        </div>
+      </footer>
     );
 };
 

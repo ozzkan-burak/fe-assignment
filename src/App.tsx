@@ -7,6 +7,7 @@ import BreadCrumb from './components/bread-crumb';
 
 //pages
 import Layout from './pages/layout';
+import Footer from './components/footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Layout />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -10,10 +10,10 @@
   
   }
   &__logo {
-    
+    padding:0;
   }
   &__cart-container {
-   @include Display(flex, space-around, center);
+   @include Display(flex, space-between, center);
    height: 100%;
    padding: 0 !important;
   }
