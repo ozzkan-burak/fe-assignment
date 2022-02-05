@@ -1,6 +1,5 @@
-import { useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+
 
 //pages
 import Popular from '../popular';
@@ -11,18 +10,10 @@ import CrispyFlavors from '../cripy-flavors';
 import Delights from '../delights';
 
 
-// actions
-import { getData } from "../../redux/actions";
+
 
 
 const Layout = () => {
-
-  
-  const dispatch = useDispatch();
-
-  useEffect(()=>{
-    dispatch(getData())
-  },[]);
 
 
   return (
