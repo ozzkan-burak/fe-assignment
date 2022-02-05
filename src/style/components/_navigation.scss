@@ -1,6 +1,6 @@
 .nav-container{
   width: 180px;
-  @include Display(flex, center, center);
+  @include Display(flex, flex-start, center);
   flex-direction:column;
   > ul {
     list-style-type: none;
