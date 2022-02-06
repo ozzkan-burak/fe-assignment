@@ -12,7 +12,7 @@ import { Provider } from 'react-redux';
 
 
 
-const store = createStore(reducer, applyMiddleware(thunk));
+const store = createStore(reducer as any, applyMiddleware(thunk));
 
 ReactDOM.render(
   <React.StrictMode>
