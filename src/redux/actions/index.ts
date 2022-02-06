@@ -19,3 +19,17 @@ export const getData = (str: string) => (dispatch:Dispatch) => {
       })
     })
 }
+
+export const addToCartAction = (item: {}) => (dispatch:Dispatch) => {
+  dispatch({
+    type: "ADD_TO_CART",
+    payload: item
+  })
+}
+
+export const removeFromCartAction = (item: {}) => (dispatch:Dispatch) => {
+  dispatch({
+    type: "REMOVE_FROM_CART",
+    payload: item
+  })
+}
