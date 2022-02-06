@@ -56,3 +56,11 @@
 .active-link{
   background-color: $nav-active-bg-color !important;
 }
+
+// responsive
+
+@media screen and (max-width: 598px) {
+  .nav-container{
+    display: none;
+  }
+}

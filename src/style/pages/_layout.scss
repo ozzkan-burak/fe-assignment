@@ -9,3 +9,12 @@
 .content-wrapper {
   @include Display(flex, space-between);
 }
+
+//responsive
+
+@media screen and (max-width: 598px) {
+  .layout {
+    padding: 0 1rem;
+  }
+  
+}
