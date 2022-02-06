@@ -5,10 +5,12 @@ import React, {useEffect} from 'react';
 import Header from './components/header';
 import Navigation from './components/navigation';
 import BreadCrumb from './components/bread-crumb';
+import MobileNav from './components/mobile-nav';
 
 //pages
 import Layout from './pages/layout';
 import Footer from './components/footer';
+
 
 
 
@@ -23,6 +25,7 @@ function App() {
         <BreadCrumb />
         <div className='content-wrapper'>
           <Navigation />
+          <MobileNav />
           <Layout />
         </div>
       </div>

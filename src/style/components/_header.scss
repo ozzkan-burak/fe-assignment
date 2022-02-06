@@ -120,7 +120,7 @@
     }
     
     &__logo{
-   
+      padding-left: 44px;
       width: 38% !important;
 
     }
@@ -147,6 +147,19 @@
   .icon-wrapper {
     width: 7rem;
   }
+  .icon-button-icon {
+    width:35px;
+    height: 35px;
+    > img {
+      width: 17px;
+    }
+  } 
+  .header__notification-wrapper, .header__promotion-wrapper {
+    display: none;
+  }
+  .header__account-wrapper{
+    width: 6rem;
+  }
 }
 
 @media screen and (max-width: 399px) {
@@ -157,13 +170,12 @@
     }
     
     &__logo{
-      
-      width: 27% !important;
+      width: 44% !important;
 
     }
     &__cart-container{
      
-      width: 65%;
+      width: 55%;
       height: 40%;
 
     }
