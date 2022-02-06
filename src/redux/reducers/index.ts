@@ -3,6 +3,7 @@ const INITIAL_STATE = {
   data: [],
   getDataError: null,
   cartTotal: [],
+  pageName: "",
 }
 
 export const reducer = (state = INITIAL_STATE, action: any) => {
@@ -16,7 +17,9 @@ export const reducer = (state = INITIAL_STATE, action: any) => {
       return { ...state, cartTotal:[...state.cartTotal, action.payload] }
     case "REMOVE_FROM_CART":
       return { ...state, cartTotal: state.cartTotal.filter((item:any )=> item.id !== action.payload) }
-    default:
+    case "SET_PAGE_NAME":
+      return { ...state, pageName: action.payload }
+      default:
       return state
   }
 }
