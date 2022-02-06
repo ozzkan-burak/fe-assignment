@@ -1,6 +1,6 @@
 .card {
   width:48%;
-  height: 365px;
+  min-height: 365px;
   margin-bottom: 2rem;;
   &-container{
     width: 100%;
@@ -86,4 +86,31 @@
       width:40px
     }
   }
+}
+
+
+// responsive
+
+
+@media screen and (max-width: 1200px) {
+ 
+}
+
+@media screen and (max-width: 960px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+
+}
+
+
+@media screen and (max-width: 598px) {
+
 }

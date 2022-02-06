@@ -127,3 +127,56 @@ footer {
   font-size: 1.8rem;;
   color: $color;
 }
+
+
+// responsive
+
+@media screen and (max-width: 1200px) {
+  
+}
+
+@media screen and (max-width: 960px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .footer-middle__content-wrapper {
+    display: none;
+  }
+  .footer-middle-container {
+    
+  }
+  .footer-middle__email-wrapper{
+    border:none;
+    width: 100%;
+  }
+  
+}
+
+
+
+
+@media screen and (max-width: 599px) {
+  .footer-top-container__social-wrapper {
+    @include Display(flex, center, center);
+    flex-direction:column;
+    > img {
+      margin-left: 0 !important;
+      margin: .5rem 0;
+    }
+  }
+  .footer-top-container{
+    height: 100%;
+  }
+  .footer-top-container__store-wrapper{
+    @include Display(flex, space-between, center);
+    width: 80%;
+    > img {
+      margin: 0 !important;
+    }
+  }
+}
+
+@media screen and (max-width: 399px) {
+  
+}

@@ -28,14 +28,14 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="header__container row">
-        <div className="header__logo col-md-1">
+      <div className="header__container">
+        <div className="header__logo ">
           <img src={bitmap} alt="logo" />
         </div>
-        <div className="header__search col-12 col-md-6">
+        <div className="header__search ">
           <SearchBar />
         </div>
-        <div className="header__cart-container col-md-5 row">
+        <div className="header__cart-container">
           <div className="header__promotion-wrapper ">
             <IconButton icon={'notification'} text={'Lipsum'} bgColor={'white'} />
           </div>
