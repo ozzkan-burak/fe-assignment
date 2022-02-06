@@ -1,0 +1,15 @@
+.bread-crumb{
+  @include Display(flex, null, center);
+  padding: 1rem 0;
+   > span {
+     color: $footer-font-color;
+     height: 2.5rem;
+     @include Display(flex, null, center);
+     img {
+      margin: 0 .5rem;
+     }
+   }
+   &__right-arrow {
+     padding-top: 5px;
+   }
+}
