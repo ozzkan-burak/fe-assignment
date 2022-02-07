@@ -123,9 +123,9 @@
         {
           "id": "3c4c0abb-42e0-4c45-ae1c-61c68bacc595",
           "label": "Diamond Gamer Menü",
-          "price": 33.99,
+          "price": 31.21,
           "discountLabel": "%10 indirim",
-          "firstPrice": 31.21,
+          "firstPrice": 33.99,
           "details": [
             "10'lu lorem",
             "x4 Lipsum",
@@ -139,9 +139,9 @@
         {
           "id": "02db92cc-3d02-4b24-91d0-6ada8bbf31e7",
           "label": "Pro Gamer Tavuklu BBQ Deluxe Menü",
-          "price": 37.99,
+          "price": 30.05,
           "discountLabel": "%20 İndirim",
-          "firstPrice": 30.05,
+          "firstPrice": 37.99,
           "details": [
             "10'lu lorem",
             "x4 Lipsum",
